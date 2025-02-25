@@ -1,0 +1,53 @@
+body
+{
+    background-color: aqua ;
+}
+img{
+   
+    width: 15%;
+    height: 15%;
+}
+.cabecalho
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid #08b110;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 8px;
+}
+.cabecalho p{
+    margin: 0;
+    color: red;
+    text-align: center;
+}
+
+.menu ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+.menu li a
+{
+    display: block;
+    color: rgb(32, 31, 31);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li{
+    border-right: 1px solid #bbb ;
+    float: left;
+}
+li a:hover
+{
+    background-color: #111111;  
+}
+li a:active
+{
+    color: #d10f0f;  
+}
